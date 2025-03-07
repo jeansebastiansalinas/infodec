@@ -1,0 +1,52 @@
+{
+	"info": {
+		"_postman_id": "9552efdc-ecba-48c2-b2cc-6f0f59eee833",
+		"name": "APIs de Clima y Moneda - Prueba Técnica",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Obtener Clima por Ciudad",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.openweathermap.org/data/2.5/weather?q={{ciudad}}&appid={{API_KEY}}&units=metric",
+					"host": ["api", "openweathermap", "org"],
+					"path": ["data", "2.5", "weather"],
+					"query": [
+						{
+							"key": "q",
+							"value": "{{ciudad}}",
+							"disabled": false
+						},
+						{
+							"key": "appid",
+							"value": "{{API_KEY}}",
+							"disabled": false
+						},
+						{
+							"key": "units",
+							"value": "metric",
+							"disabled": false
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Convertir Moneda",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://v6.exchangerate-api.com/v6/{{API_KEY}}/latest/COP",
+					"host": ["v6", "exchangerate-api", "com"],
+					"path": ["v6", "{{API_KEY}}", "latest", "COP"]
+				}
+			},
+			"response": []
+		}
+	]
+}
