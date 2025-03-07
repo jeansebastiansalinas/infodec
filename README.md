@@ -69,6 +69,19 @@ El frontend estará en: `http://localhost:4200/`
 
 ---
 
+🔹 Pasos para usar este JSON en Postman
+1️⃣ Abre Postman
+2️⃣ Ve a "File" > "Import"
+3️⃣ Selecciona este archivo .json y cárgalo
+4️⃣ Configura las variables de entorno en Postman > Environments
+
+API_KEY: Tu clave de OpenWeather y ExchangeRate
+ciudad: Nombre de la ciudad (ej. "Londres")
+moneda_destino: Código de moneda (ej. "USD")
+cantidad: Monto a convertir
+5️⃣ Prueba las APIs ejecutando las solicitudes dentro de la colección 🚀
+
+
 ## 🎥 Videos explicativos
 
 📌 **[Video 1]** - Explicación de la funcionalidad del proyecto [🔗 Google Drive]
