@@ -84,8 +84,8 @@ cantidad: Monto a convertir
 
 ## 🎥 Videos explicativos
 
-📌 **[Video 1]** - Explicación de la funcionalidad del proyecto [🔗 Google Drive]
-📌 **[Video 2]** - Explicación de la estructura del código [🔗 Google Drive]
+📌 **[Video 1]** - Explicación de la funcionalidad del proyecto [🔗 https://drive.google.com/file/d/1PUmxGGX9z7eBizS_CCBZLDP4H7hazTis/view?usp=drive_link]
+📌 **[Video 2]** - Explicación de la estructura del código [🔗 https://drive.google.com/file/d/1D1ClY51cpnsuP4OavSrdDvioUlgx7FxG/view?usp=drive_link]
 
 ---
 
